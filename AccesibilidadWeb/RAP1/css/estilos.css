@@ -17,9 +17,9 @@ ul li {
   height: 3rem; }
 
 .arcoiris {
-  background: url("img-ColoresHeader.png") no-repeat right top; }
+  opacity: 0.8; }
 
-.display-3 {
+.display-1 {
   color: #DB2C15;
   font-weight: 900; }
 
@@ -28,8 +28,96 @@ ul li {
   font-weight: 700;
   font-size: 3rem; }
 
+.contenidoPrincipal .contacto .lead:nth-child(2) a:active {
+  border: none; }
+
+.contenidoPrincipal .contacto .lead:nth-child(2) a:focus {
+  border: none; }
+
+.contenidoPrincipal .contacto .lead:nth-child(2) a:hover {
+  border: none; }
+
 .contenidoPrincipal .contacto .lead:nth-child(2) a {
+  border: none;
   font-size: 2rem;
-  color: #F1523F; }
+  color: #F1523F;
+  -webkit-animation-name: telefono;
+          animation-name: telefono;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate-reverse;
+          animation-direction: alternate-reverse; }
+
+.contenidoPrincipal .contacto .lead:nth-child(2) p {
+  font-size: 2rem;
+  color: #F1523F;
+  -webkit-animation-name: telefono;
+          animation-name: telefono;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate-reverse;
+          animation-direction: alternate-reverse; }
+
+header img {
+  -webkit-animation-name: logoRotacion;
+          animation-name: logoRotacion;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate-reverse;
+          animation-direction: alternate-reverse; }
+
+@-webkit-keyframes logoRotacion {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+  50% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn); }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); } }
+
+@keyframes logoRotacion {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+  50% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn); }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); } }
+@-webkit-keyframes telefono {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); } }
+@keyframes telefono {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); } }
 
 /*# sourceMappingURL=estilos.css.map */
